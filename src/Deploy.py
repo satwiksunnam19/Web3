@@ -7,9 +7,9 @@ from web3 import Web3
 load_dotenv()
 
 # Retrieve environment variables
-ANVIL_ACCOUNT = os.getenv("ANVIL_ACCOUNT")
-ANVIL_PRIVATE_KEY = os.getenv("ANVIL_PRIVATE_KEY")
-LOCAL_PROVIDER = os.getenv("LOCAL_PROVIDER")
+ANVIL_ACCOUNT = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266"
+ANVIL_PRIVATE_KEY = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+LOCAL_PROVIDER = "http://127.0.0.1:8545"
 
 # Debug: Verify environment variables
 print("Environment variables loaded.")
